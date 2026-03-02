@@ -5,10 +5,10 @@
 
 function buildHeader(activePage) {
   const links = [
-    { label: "Home", href: "." },
-    { label: "About Us", href: "about" },
-    { label: "Products", href: "products" },
-    { label: "Contact Us", href: "contact" },
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
+    { label: "Products", href: "/products" },
+    { label: "Contact Us", href: "/contact" },
   ];
 
   const navLinks = links
@@ -28,8 +28,8 @@ function buildHeader(activePage) {
   document.getElementById("header-root").innerHTML = `
     <header class="site-header">
       <div class="header-inner container">
-        <a class="header-brand anim-slide" href=".">
-          <img src="./images/logo.webp" alt="Shakti Borax Logo" width="48" height="48">
+        <a class="header-brand anim-slide" href="/">
+          <img src="/images/logo.webp" alt="Shakti Borax Logo" width="48" height="48">
           <div class="brand-text">
             <span class="brand-name">SHAKTI BORAX PRIVATE LIMITED</span>
 
@@ -37,8 +37,8 @@ function buildHeader(activePage) {
         </a>
         <nav class="header-nav">
           ${navLinks}
-          <a class="nav-iso" href="./documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer" title="ISO 9001:2015 Certificate">
-            <img src="./images/cert.webp" alt="ISO 9001:2015 Certified" width="50" height="52">
+          <a class="nav-iso" href="/documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer" title="ISO 9001:2015 Certificate">
+            <img src="/images/cert.webp" alt="ISO 9001:2015 Certified" width="50" height="52">
           </a>
         </nav>
         <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
@@ -52,8 +52,8 @@ function buildHeader(activePage) {
     <!-- Mobile Nav -->
     <div class="mobile-nav" id="mobileNav">
       <div class="mobile-nav-top">
-        <a class="header-brand" href=".">
-          <img src="./images/logo.webp" alt="Shakti Borax Logo" width="48" height="48">
+        <a class="header-brand" href="/">
+          <img src="/images/logo.webp" alt="Shakti Borax Logo" width="48" height="48">
           <div class="brand-text">
             <span class="brand-name">SHAKTI BORAX PRIVATE LIMITED</span>
           </div>
@@ -69,8 +69,8 @@ function buildHeader(activePage) {
           ${mobileLinks}
         </div>
         <div class="mobile-nav-iso">
-          <a href="./documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer">
-            <img src="./images/cert.webp" alt="ISO 9001:2015 Certified" width="30" height="32">
+          <a href="/documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="/images/cert.webp" alt="ISO 9001:2015 Certified" width="30" height="32">
             <span>ISO 9001:2015 Certification</span>
           </a>
         </div>
@@ -103,10 +103,10 @@ function buildHeader(activePage) {
 
 function buildFooter(activePage) {
   const links = [
-    { label: "Home", href: "." },
-    { label: "About Us", href: "about" },
-    { label: "Products", href: "products" },
-    { label: "Contact Us", href: "contact" },
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
+    { label: "Products", href: "/products" },
+    { label: "Contact Us", href: "/contact" },
   ];
 
   const menuLinks = links
@@ -124,7 +124,7 @@ function buildFooter(activePage) {
           <!-- Brand -->
           <div>
             <div class="footer-brand-logo">
-              <img src="./images/logo.webp" alt="Shakti Borax Logo" width="48" height="48">
+              <img src="/images/logo.webp" alt="Shakti Borax Logo" width="48" height="48">
               <span class="footer-brand-name">SHAKTI BORAX PRIVATE LIMITED</span>
             </div>
             <p class="footer-brand-desc">
