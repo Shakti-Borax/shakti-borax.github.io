@@ -1,110 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
-      integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>SHAKTI BORAX PRIVATE LIMITED</title>
-    <link rel="icon" type="image/x-icon" href="./assets/logo.png">
-  </head>
-  <body>
-    <header class="text-gray-600 body-font">
-      <div
-        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
-      >
-        <a
-          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-        >
-          <img src="./assets/logo.png" alt="Logo" class="h-15 w-20" />
-          <span class="ml-3 text-3xl">SHAKTI BORAX PRIVATE LIMITED</span>
-        </a>
-        <nav
-          class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center"
-        >
-          <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
-          <a class="mr-5 hover:text-gray-900" href="about.html">About Us</a>
-          <a class="mr-5 hover:text-gray-900" href="products.html">Products</a>
-          <a class="mr-5 hover:text-gray-900" href="contact.html">Contact Us</a>
-        </nav>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-1 justify-center sm:justify-start">
-          <a class="text-gray-500" target="_blank" href="./assets/ISO-9001.pdf">
-            <img
-                src="https://i.postimg.cc/brng2ng6/cert.png"
-                alt="ISO Certification"
-                class="h-14 w-auto hover:opacity-90 transition-opacity"
-              />
-          </a>
-        </span> 
-      </div>
-    </header>
-    <hr class="my-1 mx-8 border-t border-gray-300 opacity-50" />
-    <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <img class="object-cover object-center rounded" alt="history" src="./assets/History.jpeg">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — Shakti Borax Private Limited</title>
+  <meta name="description" content="Learn about Shakti Borax's 35+ year history as North India's leading Boron products manufacturer since 1990.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0c1410">
+  <link rel="canonical" href="https://www.shaktiborax.in/about">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.shaktiborax.in/about">
+  <meta property="og:title" content="About Us — Shakti Borax Private Limited">
+  <meta property="og:description" content="Learn about Shakti Borax's 35+ year history as North India's leading Boron products manufacturer since 1990.">
+  <meta property="og:image" content="https://www.shaktiborax.in/images/logo.webp">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About Us — Shakti Borax Private Limited">
+  <meta name="twitter:description" content="Learn about Shakti Borax's 35+ year history as North India's leading Boron products manufacturer since 1990.">
+  <meta name="twitter:image" content="https://www.shaktiborax.in/images/logo.webp">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="preload" as="image" href="./images/about-hero-bg.webp">
+  <link rel="preload" as="image" href="./images/logo.webp">
+  <link rel="stylesheet" href="./styles.css">
+  <style>body{background:#111a14}</style>
+</head>
+<body>
+
+<div id="header-root"></div>
+
+<!-- ============================================================
+     PAGE HERO — dark green, timeline panel right
+     ============================================================ -->
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('./images/about-hero-bg.webp');"></div>
+  <div class="container" style="position:relative;padding-top:7rem;padding-bottom:3rem;">
+    <div class="grid-12" style="align-items:center;">
+
+      <!-- Left -->
+      <div style="grid-column:span 7;">
+        <div style="position:relative;">
+          <h1 class="heading-xl anim-up">About Us</h1>
+          <span class="amber-bar"></span>
         </div>
-        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Who are we?
-          </h1>
-          <p class="mb-8 leading-relaxed text-justify">Shakti Borax Private Limited manufactures and imports Borates, which are minerals having major constituent as Boron. These minerals are found at rare locations, largest being Turkey and North America. Borates are mined in open pit mines spread across large expanses of land. Widely used commercial borates are Borax Pentahydrate, Borax Decahydrate and Boric Acid. We have been sourcing our raw material from Turkey to produce Borax and Boric Acid since 1994..
-            <br><br>
-            Our products have gained widespread acceptance on account of our quality, reliable supply guarantee, customer support and uncompromised association with our distributors. Our manufacturing facility is situated at district Mathura, U.P. within 100 Kms of Delhi, hence well connected to all parts of India.
-            </p>
-        </div>
-      </div>
-    </section>
-    <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Why buy from us?
-          </h1>
-          <p class="mb-8 leading-relaxed">Our business has always been guided by four core principles that define our success:</p>
-          <p class="mb-8 leading-relaxed text-justify">1. <strong>Commitment:</strong> We focus on our customers' satisfaction first, providing great service and always being dedicated to meeting their needs.
-            <br>
-            2. <strong>Quality Control:</strong> We maintain rigorous quality standards, which consistently set us apart from our competitors, ensuring that our products meet the highest industry standards.
-            <br>
-            3. <strong>Reliability:</strong> In today’s dynamic market, a dependable supply chain is crucial. Since day one, we have upheld a robust and reliable supply chain, guaranteeing uninterrupted service to our valued customers year-round.
-            <br>
-            4. <strong>Competitive Prices: </strong>We offer high-quality products at fair and competitive prices, ensuring great value for our customers without compromising on quality.
-          </p>
-        </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img class="object-cover object-center rounded" alt="buy" src="./assets/USP.jpeg">
-        </div>
-      </div>
-    </section>
-    <hr class="my-1 mx-8 border-t border-gray-300 opacity-50" />
-    <footer class="text-gray-600 body-font">
-      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2010 Shakti Borax Private Limited. All rights reserved.
+        <p class="anim-up d100" style="font-size:1.1rem;color:rgba(255,255,255,0.82);line-height:1.8;text-align:justify;max-width:560px;">
+          Founded in 1990, Shakti Borax has grown from a vision of excellence to become North India's leading boron products manufacturer. Our journey is built on unwavering commitment to quality and customer satisfaction, serving industries nationwide.
         </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a class="text-gray-500" href="https://www.facebook.com/shaktiborax.in/">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-            </svg>
-          </a>
-        </span>
       </div>
-    </footer>
-  </body>
+
+      <!-- Right: timeline -->
+      <div style="grid-column:span 5;" class="anim-scale d200">
+        <div class="timeline-panel">
+          <div class="timeline-item anim-up">
+            <div class="tl-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 21l4-4 4 4M8 3l4 4 4-4M12 7v10"/></svg>
+            </div>
+            <div>
+              <div class="tl-year">1990</div>
+              <div class="tl-label">Company Established</div>
+            </div>
+          </div>
+          <div class="timeline-item anim-up d100">
+            <div class="tl-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0H5m-2 0h2M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+            </div>
+            <div>
+              <div class="tl-year">1994</div>
+              <div class="tl-label">Turkish Sourcing Commenced</div>
+            </div>
+          </div>
+          <div class="timeline-item anim-up d200">
+            <div class="tl-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <div class="tl-year">Early 2000s</div>
+              <div class="tl-label">Pan-India Expansion</div>
+            </div>
+          </div>
+          <div class="timeline-item anim-up d300">
+            <div class="tl-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+            </div>
+            <div>
+              <div class="tl-year">2005 – Present</div>
+              <div class="tl-label">#1 Boron Manufacturer, North India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHO WE ARE — light bg, image right
+     ============================================================ -->
+<section class="about-body-section section-py">
+  <div class="about-body-bg"></div>
+  <div class="about-body-overlay"></div>
+  <div class="about-body-content container">
+    <div class="grid-12" style="gap:3rem;">
+
+      <!-- Left: text -->
+      <div style="grid-column:span 7;">
+        <div style="position:relative;">
+          <h2 class="heading-lg anim-up" style="color:#0c1410;">Who We Are<br>&amp; What We Do</h2>
+          <span class="amber-bar"></span>
+        </div>
+        <p class="anim-up d100" style="font-size:1.05rem;color:#3d4a42;line-height:1.8;text-align:justify;">
+          Shakti Borax Private Limited manufactures and imports Borates — minerals having Boron as their major constituent. These minerals are found at rare locations globally, with Turkey and North America holding the largest reserves.
+        </p>
+        <p class="anim-up d200" style="font-size:1.05rem;color:#3d4a42;line-height:1.8;text-align:justify;margin-top:1rem;">
+          Widely used commercial borates include Borax Pentahydrate, Borax Decahydrate and Boric Acid. We have been sourcing raw material directly from Turkey to produce Borax and Boric Acid since 1994, ensuring the highest purity and consistent supply.
+        </p>
+        <p class="anim-up d300" style="font-size:1.05rem;color:#3d4a42;line-height:1.8;text-align:justify;margin-top:1rem;">
+          Our products have gained widespread acceptance on account of quality, reliable supply guarantee, customer support and uncompromised association with our distributors. Our manufacturing facility in Kosi Kalan, Mathura is within 100 km of Delhi — well connected to all parts of India.
+        </p>
+      </div>
+
+      <!-- Right: image -->
+      <div style="grid-column:span 5;" class="anim-scale">
+        <div style="position:relative;">
+          <img
+            src="./images/about-who-we-are.webp"
+            alt="Refined borax and boric acid products manufactured by Shakti Borax at their Kosi Kalan, Mathura facility"
+            class="section-img"
+            style="height:460px;"
+            loading="lazy"
+            decoding="async"
+          >
+          <div class="section-img-overlay"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     JOURNEY — dark green, image left + cards right
+     ============================================================ -->
+<section class="journey-section section-py">
+  <div class="container" style="position:relative;">
+    <div class="grid-12" style="gap:3rem;">
+
+      <!-- Left: image -->
+      <div style="grid-column:span 5;" class="anim-scale">
+        <div style="position:relative;">
+          <img
+            src="./images/about-journey.webp"
+            alt="Shakti Borax's three-decade journey as North India's leading boron manufacturer since 1990"
+            class="section-img"
+            style="aspect-ratio:4/3;"
+            loading="lazy"
+            decoding="async"
+          >
+          <div class="section-img-overlay"></div>
+        </div>
+      </div>
+
+      <!-- Right: text + cards -->
+      <div style="grid-column:span 7;">
+        <h2 class="heading-lg anim-up" style="color:#fff;">
+          Our Journey Through<br>Three Decades
+        </h2>
+        <span class="amber-bar"></span>
+
+        <div class="journey-cards-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:1rem;">
+          <div class="journey-card anim-up d200">
+            <div class="jc-icon">
+              <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3>Established in 1990</h3>
+            <p>Our manufacturing facility is situated at District Mathura, U.P. within 100 km of Delhi, well connected to all parts of India.</p>
+          </div>
+          <div class="journey-card anim-up d300">
+            <div class="jc-icon">
+              <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <h3>Strategic Location</h3>
+            <p>Centrally located for efficient distribution — ensuring prompt supply to customers across North and Central India.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHY CHOOSE US — 3-column with center image
+     ============================================================ -->
+<section class="why-section section-py">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3.5rem;">
+      <h2 class="heading-lg anim-up" style="color:#0c1410;">
+        Why Choose <span style="color:#2d6040;">Shakti Borax</span>?
+      </h2>
+      <span class="amber-bar-center"></span>
+      <p class="anim-up d100" style="font-size:1.05rem;color:#6b7c6f;max-width:520px;margin:0 auto;line-height:1.75;">
+        Discover why industry leaders trust us for their Boron product needs
+      </p>
+    </div>
+
+    <div class="why-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.75rem;align-items:stretch;">
+
+      <!-- Left column -->
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <div class="why-card anim-up d200">
+          <div class="why-icon">
+            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3>Industry Expertise</h3>
+          <p>Three decades of specialised experience in Boron product manufacturing and distribution across India.</p>
+        </div>
+        <div class="why-card anim-up d300">
+          <div class="why-icon">
+            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3>Quality Standards</h3>
+          <p>Rigorous ISO 9001 certified quality control processes ensuring consistent product excellence at every stage.</p>
+        </div>
+      </div>
+
+      <!-- Center: image with badge -->
+      <div class="why-center-img anim-scale d200">
+        <img
+          src="./images/about-why-choose.webp"
+          alt="Shakti Borax ISO 9001 certified boron products meeting global quality standards"
+          loading="lazy"
+          decoding="async"
+        >
+        <div class="why-center-badge">
+          <div class="why-center-badge-inner">
+            <h3>Global Standards</h3>
+            <p>Meeting international quality benchmarks with state-of-the-art manufacturing</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <div class="why-card anim-up d300">
+          <div class="why-icon">
+            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+          </div>
+          <h3>Market Leadership</h3>
+          <p>The largest manufacturer of Boron products in North India — trusted by over 50 industries nationwide.</p>
+        </div>
+        <div class="why-card anim-up d400">
+          <div class="why-icon">
+            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          </div>
+          <h3>Competitive Edge</h3>
+          <p>Optimal pricing with uncompromising quality — ensuring maximum value for our customers.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="footer-root"></div>
+
+<script src="./components.js"></script>
+<script>
+  buildHeader('About Us');
+  buildFooter('About Us');
+</script>
+</body>
 </html>
