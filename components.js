@@ -37,8 +37,8 @@ function buildHeader(activePage) {
         </a>
         <nav class="header-nav">
           ${navLinks}
-          <a class="nav-iso" href="./documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer" title="ISO 9001 Certificate">
-            <img src="./images/cert.webp" alt="ISO 9001 Certified" width="50" height="52">
+          <a class="nav-iso" href="./documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer" title="ISO 9001:2015 Certificate">
+            <img src="./images/cert.webp" alt="ISO 9001:2015 Certified" width="50" height="52">
           </a>
         </nav>
         <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
@@ -70,7 +70,7 @@ function buildHeader(activePage) {
         </div>
         <div class="mobile-nav-iso">
           <a href="./documents/ISO-9001.pdf" target="_blank" rel="noopener noreferrer">
-            <img src="./images/cert.webp" alt="ISO 9001 Certified" width="30" height="32">
+            <img src="./images/cert.webp" alt="ISO 9001:2015 Certified" width="30" height="32">
             <span>ISO 9001:2015 Certification</span>
           </a>
         </div>
