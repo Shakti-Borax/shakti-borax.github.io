@@ -169,7 +169,7 @@ function buildFooter(activePage) {
 
         </div>
         <div class="footer-bottom">
-          <p>© ${new Date().getFullYear()} Shakti Borax Private Limited. All rights reserved.</p>
+          <p>© ${new Date().getFullYear()} Shakti Borax Private Limited. All rights reserved. &nbsp;·&nbsp; <a href="/privacy" style="color:inherit;opacity:0.7;text-decoration:underline;text-underline-offset:3px;">Privacy Policy</a></p>
         </div>
       </div>
     </footer>
